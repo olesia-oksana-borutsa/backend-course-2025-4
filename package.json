@@ -1,17 +1,25 @@
 {
   "name": "lab_4",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "  ",
+  "type": "module",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node main.js",
+  "dev": "nodemon --exec \"node\" main.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/olesia-oksana-borutsa/backend-course-2025-4.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "backend",
+    "xml",
+    "json",
+    "lab4"
+  ],
+  "author": "Olesia Bourutsa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/olesia-oksana-borutsa/backend-course-2025-4/issues"
